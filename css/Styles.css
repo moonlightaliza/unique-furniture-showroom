@@ -155,34 +155,46 @@ button{
 footer{
     background: var(--dark);
     color: white;
-    padding: 50px 20px;
+    padding: 45px 20px;
     text-align: center;
 }
 
 .footer-container h2{
-    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+    color: var(--secondary);
+    margin-bottom: 12px;
 }
 
 .footer-container p{
     margin-bottom: 20px;
+    color: #ddd;
+    line-height: 1.6;
 }
 
 .footer-links{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
     flex-wrap: wrap;
-
-    margin-bottom: 25px;
+    margin: 30px 0;
 }
 
 .footer-links a{
     color: white;
     text-decoration: none;
+    transition: 0.3s ease;
 }
 
 .footer-links a:hover{
     color: var(--secondary);
+}
+
+.copyright{
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    color: #bbb;
+    font-size: 0.9rem;
 }
 
 /* ABOUT SECTION */
