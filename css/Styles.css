@@ -184,3 +184,35 @@ footer{
 .footer-links a:hover{
     color: var(--secondary);
 }
+
+/* ABOUT SECTION */
+
+.about{
+    padding: 80px 10%;
+    background: white;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.about-image img{
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+}
+
+.about-content h2{
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.about-content p{
+    color: var(--accent);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
